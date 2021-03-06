@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* row1 */
+#row1{
+    width: 100%;
+    
+   
+}
+#row1 hr{
+
+        width: 100%;
+        border: 1px solid;
+        background-color: black;
+        margin-top: -5px;
+   
+}
+.top-bar{
+    display: flex;
+    padding: 0px 100px;
+}
+}
+.top-text{
+
+}
+.top-text ul{
+display: flex;
+margin: 0;
+padding: 0;
+}
+.top-text ul li{
+    list-style: none;
+    margin: 5px 10px;
+    border-right: 1px solid;
+    
+   
+    padding: 5px;
+}
+
+.top-icon{
+    float: right;
+    
+}
+.top-icon a{
+    text-decoration: none;
+}
+.top-icon a i{
+    margin: 5px 10px;
+    padding: 5px;
+    color: #6F0300;
+    
+}
+
+/* row2 */
+#row2{
+
+}
+.top-menu{
+    display: flex;
+    padding: 0px 100px;
+}
+.logo{
+
+}
+.logo a img{
+    width: 150px;
+    height: 70px;
+}
+.menu{
+   float: right;
+  
+}
+.menu ul{
+    display: flex;
+    position: relative;
+}
+.menu ul li{
+    list-style: none;
+    margin: 10px 25px;
+   
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.menu ul li a:hover{
+    color:#6F0300 ;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover >ul{
+    display: block;
+    position: absolute;
+    background-color: white;
+    
+}
+
+
+
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(202, 171, 171);
+    text-align: center;
+    color: #6F0300;
+}
+.circle i{
+    font-weight: bold;
+   
+}
+.button{
+    width: 130px;
+height: 40px;
+background-color: #6F0300;
+text-align: center;
+border-radius: 20px;
+color: white;
+padding: 5px;
+}
+
+/* row3 */
+#row3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/banner2.jpg);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.b-text{
+    text-align: center;
+    padding-top: 260px;
+    color: white;
+}
+.b-text h1{
+    letter-spacing: 0.1rem;
+    font-size: 50px;
+}
+.b-text p{
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+.b-btn{
+width: 200px;
+height: 55px;
+background-color: #6F0300;
+text-align: center;
+border-radius: 40px;
+margin: 0 auto;
+padding: 10px;
+}
+
+.b-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.b-btn:hover{
+  
+    background: none;
+    border: 40px;
+    border: 2px solid white;
+}
+
+/* service */
+#row4{
+    background: #EFF6F0;
+}
+.service{
+    padding: 60px 100px;
+}
+.icon{
+    background: #F7FBF8;
+    text-align: center;
+}
+.icon i{
+    font-size: 50px;
+    padding:20px 15px;
+    color: #6F0300;
+}
+.icon a{
+   font-size: 25px; 
+}
+
+.s-text{
+    text-align: center;
+    padding-top: 35px;
+}
+
+/* row 5 */
+#row5{
+    background: #6F0300;
+}
+.left-box{
+    padding: 100px 5px 0px 210px;
+}
+.left-text h2{
+    font-size: 48px;
+    color: white;
+}
+.left-text p{
+    padding-top: 15px;
+    color: gray;
+}
+.left-img{
+    width: 100%;
+}
+.left-img img{
+   
+    width: 100%;
+    height: 400px;
+}
+
+.right-box{
+    padding: 87px 100px 0px 5px;
+}
+.right-text{
+    
+}
+.right-text h3{
+    color: white;
+    font-size: 35px;
+}
+.right-text p{
+    color: gray;
+}
+.button-r{
+    padding-top: 35px;
+}
+.right-btn{
+    width: 200px;
+    height: 55px;
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    
+    padding: 10px;
+    
+}
+    
+.right-btn a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+}
+.right-btn:hover{
+  
+    background: none;
+    border: 40px;
+    border: 2px solid white;
+}
+
+.right-img{
+    width: 100%;
+    padding-top: 48px;
+}
+.right-img img{
+    width: 70%;
+    height: 250px;
+}
+.chiled{
+    border: 2px solid #6F0300;
+    
+    margin: 12px auto;
+}
+.offer{
+text-align: left;
+padding: 10px 35px;
+}
+.offer i{
+    font-size: 50px;
+    color: #6F0300;
+    padding-top: 35px;
+}
+.offer h3{
+    padding-top: 15px;
+}
+.offer h3 a{
+    text-decoration: none;
+}
+.offer p{
+    
+}
+
+/* row 6 */
+.project-header{
+text-align: center;
+padding-top: 20px;
+}
+.project-header h2{
+    font-size: 45px;
+    color: #6F0300;
+}
+
+
+.p-item{
+width: 100%;
+border: 2px solid #6F0300;
+text-align: center;
+}
+.p-item a img{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+}
+.p-item a img:hover{
+    transform: translate(0px ,20px);
+    transition: 1s;
+}
+
+
+/* row7 */
+#row7{
+    padding-top: 70px;
+}
+.form-img{
+    width: 100%;
+}
+.form-img img{
+    width: 100%;
+    height: 500px;
+}
+.comment{
+    
+}
+.c-text{
+    padding: 25px 60px;
+    color: #6F0300;
+    background-color: #a8919d;
+    
+}
+.c-text h2{
+    font-size: 35px;
+    padding-bottom: 45px;
+}
+.c-text p{
+    padding-top: 10px;
+}
+.c-text h3{
+    
+}
+
+.c-button{
+    text-align: center;
+    background-color: indianred;
+}
+.c-button a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+
+}
+
+.form h3{
+    padding: 10px 15px;
+    color: #6F0300;
+    font-size: 40px;
+}
+.f1{
+    padding: 10px 15px;
+}
+.f2{
+    padding-top: 110px;
+}
+#footer{
+    background-image: url(img/pexels-jess-bailey-designs-934011.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#footer span{
+    padding: 15px 0px 0px 108px;
+    color: #6F0300;
+}
+#footer hr{
+    height: 2px;
+}
+.f-logo{
+    padding: 50px 195px 0px 100px;
+}
+.f-logo a  img{
+    width: 200px;
+    height: 100px;
+}
+.f-icon{
+    display: flex;
+}
+.f-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #6F0300;
+    text-align: center;
+    margin: 10px;
+    
+}
+.f-circle a{
+    text-decoration: none;
+}
+.f-circle a i{
+    padding-top: 10px;
+font-size: 20px;
+color: #6F0300;
+}
+
+
+.f-service {
+    padding-top: 65px;
+
+}
+.s-header h4 {
+    color: #6F0300;
+}
+.s-link a {
+    text-decoration: none;
+    color: #6F0300;
+    padding-top: 15px;
+    display: inline-block;
+}
+.s-link a:hover{
+    text-decoration: underline;
+}
+    
+
+
+.f-nav {
+
+}
+.f-nav a{
+    text-decoration: none;
+    display: block;
+    color: #6F0300;
+}
+.f-nav h4{
+    color: #6F0300;
+}
+
+
+.contact-section{
+    padding: 65px 60px 0px 15px;
+}
+.c-head{
+
+}
+.c-head h4{
+    color: #6F0300;
+}
+.c-mail{
+    padding-top: 10px;
+}
+.c-mail a{
+    color: #6F0300; 
+}
+.c-house{
+    padding-top: 15px;
+}
+.c-house a{
+    color: #9b4d4b;
+    font-size: 20px;
+}
+.c-phone{
+    padding-top: 15px;
+}
+.c-phone a{
+    color: #6F0300;
+    font-size: 25px;
+}
